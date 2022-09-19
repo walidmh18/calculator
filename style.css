@@ -107,3 +107,16 @@ header a:hover{
   color: var(--light-color);
   opacity: 0.85;
 }
+@media screen and (max-width : 800px) {
+    header {
+        padding: 0 1rem;
+    }
+    button{
+        padding: 1rem;
+        
+    }
+    .app{
+        margin: 5rem auto;
+        width: 90%;
+    }
+}
